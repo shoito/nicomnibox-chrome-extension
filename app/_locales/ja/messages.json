@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "niconico Omni",
+    "message": "nicomnibox",
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "ns[Tab]とアドレスバーに入力すると、サジェスト機能に導かれながらニコニコ動画、静画、生放送などのコンテンツを検索できます。",
+    "message": "ns[Tab]とアドレスバーに入力すると、サジェスト機能に導かれながらニコニコ動画、静画、生放送、ブロマガなどのコンテンツを検索できます。",
     "description": "The description of the application"
   }
 }

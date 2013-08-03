@@ -104,7 +104,7 @@ module.exports = (grunt) ->
     compress:
       dist:
         options:
-          archive: "package/niconico-omni.zip"
+          archive: "package/nicomnibox.zip"
 
         files: [
           expand: true

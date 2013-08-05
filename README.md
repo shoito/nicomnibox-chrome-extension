@@ -33,3 +33,6 @@ ns[Tab]とアドレスバーに入力すると、サジェスト機能に導か�
 - ```:book ほげほげ```
 - ```:channel ほげほげ```
 - ```:blomaga ほげほげ```
+
+#### License
+MIT License - http://opensource.org/licenses/MIT

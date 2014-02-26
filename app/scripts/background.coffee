@@ -4,11 +4,10 @@ suggestByNico = (text, callback) ->
   return if text is ""
 
   queryInfo = resolveText(text)
-  console.log queryInfo
   
-  url = "http://sug.search.nicovideo.jp/suggestion/complete"
+  url = "http://sug.search.nicovideo.jp/suggestion/complete/"
   req = new XMLHttpRequest()
-  req.open "POST", url
+  req.open "GET", url + queryInfo.text
   
   req.onreadystatechange = =>
   	if req.readyState is 4 and req.status is 200
@@ -19,7 +18,7 @@ suggestByNico = (text, callback) ->
 	  		}
 	  	callback candidates
 
-  req.send queryInfo.text
+  req.send()
   req
 
 resolveText = (text) ->
